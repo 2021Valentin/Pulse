@@ -79,13 +79,11 @@
             <div class="consultation__description">
                 Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут
             </div>
-            <form action="#">
-                <input type="text" required placeholder="Ваше имя" class="consultation_input">
-                <input type="tel" required placeholder="Ваш телефон" class="consultation_input">
-                <input type="email" required placeholder="Ваш E-mail" class="consultation_input">
-
-                <!-- <input type="submit" value="Заказать консультацию"> -->
-                
+            <form class="feed-form" action="#">
+                <input name="name" type="text" required placeholder="Ваше имя">
+                <input name="phone" type="tel" required placeholder="Ваш телефон">
+                <input name="email" type="email" required placeholder="Ваш E-mail">
+                <button class="button button_submit">Заказать консультацию</button>
             </form>
         </div>
     </div>
